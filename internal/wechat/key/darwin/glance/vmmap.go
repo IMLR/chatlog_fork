@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/IMLR/chatlog_fork/internal/errors"
+	"github.com/IMLR/chatlog/internal/errors"
 )
 
 const (

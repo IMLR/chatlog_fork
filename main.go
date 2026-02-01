@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/IMLR/chatlog_fork/cmd/chatlog"
+	"github.com/IMLR/chatlog/cmd/chatlog"
 )
 
 func main() {

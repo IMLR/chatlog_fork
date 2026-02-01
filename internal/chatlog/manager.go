@@ -7,15 +7,15 @@ import (
 	"strings"
 
 	"github.com/rs/zerolog/log"
-	"github.com/IMLR/chatlog_fork/internal/chatlog/conf"
-	"github.com/IMLR/chatlog_fork/internal/chatlog/ctx"
-	"github.com/IMLR/chatlog_fork/internal/chatlog/database"
-	"github.com/IMLR/chatlog_fork/internal/chatlog/http"
-	"github.com/IMLR/chatlog_fork/internal/chatlog/wechat"
-	iwechat "github.com/IMLR/chatlog_fork/internal/wechat"
-	"github.com/IMLR/chatlog_fork/pkg/config"
-	"github.com/IMLR/chatlog_fork/pkg/util"
-	"github.com/IMLR/chatlog_fork/pkg/util/dat2img"
+	"github.com/IMLR/chatlog/internal/chatlog/conf"
+	"github.com/IMLR/chatlog/internal/chatlog/ctx"
+	"github.com/IMLR/chatlog/internal/chatlog/database"
+	"github.com/IMLR/chatlog/internal/chatlog/http"
+	"github.com/IMLR/chatlog/internal/chatlog/wechat"
+	iwechat "github.com/IMLR/chatlog/internal/wechat"
+	"github.com/IMLR/chatlog/pkg/config"
+	"github.com/IMLR/chatlog/pkg/util"
+	"github.com/IMLR/chatlog/pkg/util/dat2img"
 )
 
 // Manager 管理聊天日志应用

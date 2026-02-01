@@ -3,7 +3,7 @@ package chatlog
 import (
 	"fmt"
 
-	"github.com/IMLR/chatlog_fork/pkg/version"
+	"github.com/IMLR/chatlog/pkg/version"
 
 	"github.com/spf13/cobra"
 )

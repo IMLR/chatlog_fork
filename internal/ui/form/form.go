@@ -5,7 +5,7 @@ import (
 
 	"github.com/gdamore/tcell/v2"
 	"github.com/rivo/tview"
-	"github.com/IMLR/chatlog_fork/internal/ui/style"
+	"github.com/IMLR/chatlog/internal/ui/style"
 )
 
 const (

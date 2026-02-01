@@ -4,9 +4,9 @@ import (
 	"context"
 	"runtime"
 
-	"github.com/IMLR/chatlog_fork/internal/errors"
-	"github.com/IMLR/chatlog_fork/internal/wechat/model"
-	"github.com/IMLR/chatlog_fork/internal/wechat/process"
+	"github.com/IMLR/chatlog/internal/errors"
+	"github.com/IMLR/chatlog/internal/wechat/model"
+	"github.com/IMLR/chatlog/internal/wechat/process"
 )
 
 var DefaultManager *Manager

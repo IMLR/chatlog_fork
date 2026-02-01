@@ -3,7 +3,7 @@ package repository
 import (
 	"context"
 
-	"github.com/IMLR/chatlog_fork/internal/model"
+	"github.com/IMLR/chatlog/internal/model"
 )
 
 func (r *Repository) GetSessions(ctx context.Context, key string, limit, offset int) ([]*model.Session, error) {

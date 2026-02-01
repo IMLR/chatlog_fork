@@ -6,10 +6,10 @@ _聊天记录工具，帮助大家轻松使用自己的聊天数据_
 
 [![ImgMCP](https://cdn.imgmcp.com/imgmcp-logo-small.png)](https://imgmcp.com)
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/IMLR/chatlog_fork)](https://goreportcard.com/report/github.com/IMLR/chatlog_fork)
-[![GoDoc](https://godoc.org/github.com/IMLR/chatlog_fork?status.svg)](https://godoc.org/github.com/IMLR/chatlog_fork)
-[![GitHub release](https://img.shields.io/github/release/IMLR/chatlog_fork.svg)](https://github.com/IMLR/chatlog_fork/releases)
-[![GitHub license](https://img.shields.io/github/license/IMLR/chatlog_fork.svg)](https://github.com/IMLR/chatlog_fork/blob/main/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/IMLR/chatlog)](https://goreportcard.com/report/github.com/IMLR/chatlog)
+[![GoDoc](https://godoc.org/github.com/IMLR/chatlog?status.svg)](https://godoc.org/github.com/IMLR/chatlog)
+[![GitHub release](https://img.shields.io/github/release/IMLR/chatlog.svg)](https://github.com/IMLR/chatlog/releases)
+[![GitHub license](https://img.shields.io/github/license/IMLR/chatlog.svg)](https://github.com/IMLR/chatlog/blob/main/LICENSE)
 
 
 </div>
@@ -43,21 +43,21 @@ _聊天记录工具，帮助大家轻松使用自己的聊天数据_
 - **macOS 用户**：获取密钥前需[临时关闭 SIP](#macos-版本说明)
 - **Windows 用户**：遇到界面显示问题请[使用 Windows Terminal](#windows-版本说明)
 - **集成 AI 助手**：查看 [MCP 集成指南](#mcp-集成)
-- **无法获取密钥**：查看 [FAQ](https://github.com/IMLR/chatlog_fork/issues/197)
+- **无法获取密钥**：查看 [FAQ](https://github.com/IMLR/chatlog/issues/197)
 
 ## 安装指南
 
 ### 从源码安装
 
 ```bash
-go install github.com/IMLR/chatlog_fork@latest
+go install github.com/IMLR/chatlog@latest
 ```
 
 > 💡 **提示**: 部分功能有 cgo 依赖，编译前需确认本地有 C 编译环境。
 
 ### 下载预编译版本
 
-访问 [Releases](https://github.com/IMLR/chatlog_fork/releases) 页面下载适合您系统的预编译版本。
+访问 [Releases](https://github.com/IMLR/chatlog/releases) 页面下载适合您系统的预编译版本。
 
 ## 使用指南
 
@@ -111,17 +111,17 @@ chatlog 提供了两个镜像源：
 
 **Docker Hub**:
 ```shell
-docker pull IMLR/chatlog_fork:latest
+docker pull IMLR/chatlog:latest
 ```
 
 **GitHub Container Registry (ghcr)**:
 ```shell
-docker pull ghcr.io/IMLR/chatlog_fork:latest
+docker pull ghcr.io/IMLR/chatlog:latest
 ```
 
 > 💡 **镜像地址**: 
-> - Docker Hub: https://hub.docker.com/r/IMLR/chatlog_fork
-> - GitHub Container Registry: https://ghcr.io/IMLR/chatlog_fork
+> - Docker Hub: https://hub.docker.com/r/IMLR/chatlog
+> - GitHub Container Registry: https://ghcr.io/IMLR/chatlog
 
 **2. 运行容器**
 
@@ -130,7 +130,7 @@ $ docker run -d \
   --name chatlog \
   -p 5030:5030 \
   -v /path/to/your/wechat/data:/app/data \
-  IMLR/chatlog_fork:latest
+  IMLR/chatlog:latest
 ```
 
 ### 从手机迁移聊天记录
@@ -323,7 +323,7 @@ Chatlog 可以与多种支持 MCP 的 AI 助手集成，包括：
 
 查看 [Prompt 指南](docs/prompt.md) 获取详细示例。
 
-同时欢迎大家分享使用经验和 prompt！如果您有好的 prompt 示例或使用技巧，请通过 [Discussions](https://github.com/IMLR/chatlog_fork/discussions) 进行分享，共同进步。
+同时欢迎大家分享使用经验和 prompt！如果您有好的 prompt 示例或使用技巧，请通过 [Discussions](https://github.com/IMLR/chatlog/discussions) 进行分享，共同进步。
 
 ## 免责声明
 

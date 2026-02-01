@@ -3,8 +3,8 @@ package footer
 import (
 	"fmt"
 
-	"github.com/IMLR/chatlog_fork/internal/ui/style"
-	"github.com/IMLR/chatlog_fork/pkg/version"
+	"github.com/IMLR/chatlog/internal/ui/style"
+	"github.com/IMLR/chatlog/pkg/version"
 
 	"github.com/rivo/tview"
 )

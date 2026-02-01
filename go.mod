@@ -1,4 +1,4 @@
-module github.com/IMLR/chatlog_fork
+module github.com/IMLR/chatlog
 
 go 1.24.0
 
