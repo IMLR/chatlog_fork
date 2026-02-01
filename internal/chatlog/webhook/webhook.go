@@ -10,8 +10,8 @@ import (
 	"github.com/fsnotify/fsnotify"
 	"github.com/rs/zerolog/log"
 
-	"github.com/IMLR/chatlog/internal/chatlog/conf"
-	"github.com/IMLR/chatlog/internal/wechatdb"
+	"github.com/IMLR/chatlog_fork/internal/chatlog/conf"
+	"github.com/IMLR/chatlog_fork/internal/wechatdb"
 )
 
 type Config interface {

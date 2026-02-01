@@ -12,8 +12,8 @@ import (
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"
 
-	"github.com/IMLR/chatlog/internal/wechat"
-	"github.com/IMLR/chatlog/internal/wechat/key/darwin/glance"
+	"github.com/IMLR/chatlog_fork/internal/wechat"
+	"github.com/IMLR/chatlog_fork/internal/wechat/key/darwin/glance"
 )
 
 func init() {

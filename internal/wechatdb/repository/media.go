@@ -3,7 +3,7 @@ package repository
 import (
 	"context"
 
-	"github.com/IMLR/chatlog/internal/model"
+	"github.com/IMLR/chatlog_fork/internal/model"
 )
 
 func (r *Repository) GetMedia(ctx context.Context, _type string, key string) (*model.Media, error) {

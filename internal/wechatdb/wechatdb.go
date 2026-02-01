@@ -7,9 +7,9 @@ import (
 	"github.com/fsnotify/fsnotify"
 	_ "github.com/mattn/go-sqlite3"
 
-	"github.com/IMLR/chatlog/internal/model"
-	"github.com/IMLR/chatlog/internal/wechatdb/datasource"
-	"github.com/IMLR/chatlog/internal/wechatdb/repository"
+	"github.com/IMLR/chatlog_fork/internal/model"
+	"github.com/IMLR/chatlog_fork/internal/wechatdb/datasource"
+	"github.com/IMLR/chatlog_fork/internal/wechatdb/repository"
 )
 
 type DB struct {

@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/IMLR/chatlog/internal/chatlog/database"
+	"github.com/IMLR/chatlog_fork/internal/chatlog/database"
 )
 
 func corsMiddleware() gin.HandlerFunc {

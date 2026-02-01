@@ -1,9 +1,9 @@
 package process
 
 import (
-	"github.com/IMLR/chatlog/internal/wechat/model"
-	"github.com/IMLR/chatlog/internal/wechat/process/darwin"
-	"github.com/IMLR/chatlog/internal/wechat/process/windows"
+	"github.com/IMLR/chatlog_fork/internal/wechat/model"
+	"github.com/IMLR/chatlog_fork/internal/wechat/process/darwin"
+	"github.com/IMLR/chatlog_fork/internal/wechat/process/windows"
 )
 
 type Detector interface {

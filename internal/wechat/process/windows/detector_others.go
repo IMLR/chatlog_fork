@@ -4,7 +4,7 @@ package windows
 
 import (
 	"github.com/shirou/gopsutil/v4/process"
-	"github.com/IMLR/chatlog/internal/wechat/model"
+	"github.com/IMLR/chatlog_fork/internal/wechat/model"
 )
 
 func initializeProcessInfo(p *process.Process, info *model.Process) error {

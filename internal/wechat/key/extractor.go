@@ -3,11 +3,11 @@ package key
 import (
 	"context"
 
-	"github.com/IMLR/chatlog/internal/errors"
-	"github.com/IMLR/chatlog/internal/wechat/decrypt"
-	"github.com/IMLR/chatlog/internal/wechat/key/darwin"
-	"github.com/IMLR/chatlog/internal/wechat/key/windows"
-	"github.com/IMLR/chatlog/internal/wechat/model"
+	"github.com/IMLR/chatlog_fork/internal/errors"
+	"github.com/IMLR/chatlog_fork/internal/wechat/decrypt"
+	"github.com/IMLR/chatlog_fork/internal/wechat/key/darwin"
+	"github.com/IMLR/chatlog_fork/internal/wechat/key/windows"
+	"github.com/IMLR/chatlog_fork/internal/wechat/model"
 )
 
 // Extractor 定义密钥提取器接口

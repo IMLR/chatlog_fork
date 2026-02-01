@@ -5,7 +5,7 @@ package windows
 import (
 	"context"
 
-	"github.com/IMLR/chatlog/internal/wechat/model"
+	"github.com/IMLR/chatlog_fork/internal/wechat/model"
 )
 
 func (e *V4Extractor) Extract(ctx context.Context, proc *model.Process) (string, string, error) {

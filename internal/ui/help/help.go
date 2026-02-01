@@ -3,7 +3,7 @@ package help
 import (
 	"fmt"
 
-	"github.com/IMLR/chatlog/internal/ui/style"
+	"github.com/IMLR/chatlog_fork/internal/ui/style"
 
 	"github.com/rivo/tview"
 )
